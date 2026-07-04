@@ -39,6 +39,3 @@ The car uses an **L298N motor driver** to control two DC motors independently (d
 - [ ] Merge the WiFi variants into one configurable sketch (feature flags)
 - [ ] Add a short demo video/GIF of the car in action
 - [ ] Add the wiring diagram as an image directly in this README
-
----
-*Originally built for an "Internet of Things" university course; refined for portfolio presentation.*
