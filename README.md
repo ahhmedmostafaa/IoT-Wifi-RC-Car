@@ -34,8 +34,3 @@ The car uses an **L298N motor driver** to control two DC motors independently (d
 4. Upload the sketch
 5. **WiFi versions:** connect to the car's WiFi network (`WIFI Car Project`) and open its IP in a browser
 6. **Bluetooth version:** pair via a Bluetooth serial terminal or RC-car controller app
-
-## Roadmap
-- [ ] Merge the WiFi variants into one configurable sketch (feature flags)
-- [ ] Add a short demo video/GIF of the car in action
-- [ ] Add the wiring diagram as an image directly in this README
