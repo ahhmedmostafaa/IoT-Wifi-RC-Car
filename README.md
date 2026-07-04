@@ -10,11 +10,11 @@ The car uses an **L298N motor driver** to control two DC motors independently (d
 
 ## Project Versions
 
-| Folder | Description |
+| File | Description |
 |---|---|
-| `wificar_project/` | Base version — WiFi AP + web server, LED and buzzer control (horn) alongside driving |
-| `wificar_sensor_project/` | Adds an **HC-SR04 ultrasonic sensor** for real-time obstacle distance sensing |
-| `Bluetooth_Car/` | Alternative control scheme over Bluetooth serial instead of WiFi |
+| `wificar_project.ino` | Base version — WiFi AP + web server, LED and buzzer control (horn) alongside driving |
+| `wificar_sensor_project.ino` | Adds an **HC-SR04 ultrasonic sensor** for real-time obstacle distance sensing |
+| `Bluetooth_Car.ino` | Alternative control scheme over Bluetooth serial instead of WiFi |
 
 ## Hardware Used
 - ESP8266 (WiFi versions) / Arduino + Bluetooth module (Bluetooth version)
