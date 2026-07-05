@@ -12,9 +12,9 @@ The car uses an **L298N motor driver** to control two DC motors independently (d
 
 | Folder | File | Description |
 |---|---|---|
-| [`Wifi Car/`](./Wifi%20Car) | `wificar_project.ino` | Base version — WiFi AP + web server, LED and buzzer control (horn) alongside driving |
-| [`Wifi Car Sensor/`](./Wifi%20Car%20Sensor) | `wificar_sensor_project.ino` | Adds an **HC-SR04 ultrasonic sensor** for real-time obstacle distance sensing |
-| [`Bluetooth Car/`](./Bluetooth%20Car) | `Bluetooth_Car.ino` | Alternative control scheme over Bluetooth serial instead of WiFi |
+| [`wifi-car/`](./wifi-car) | `wificar_project.ino` | Base version — WiFi AP + web server, LED and buzzer control (horn) alongside driving |
+| [`wifi-car-sensor/`](./wifi-car-sensor) | `wificar_sensor_project.ino` | Adds an **HC-SR04 ultrasonic sensor** for real-time obstacle distance sensing |
+| [`bluetooth-car/`](./bluetooth-car) | `Bluetooth_Car.ino` | Alternative control scheme over Bluetooth serial instead of WiFi |
 
 Each folder also contains a `HARDWARE_CONNECTIONS.md` with the full wiring/pinout for that specific version, plus a reference photo.
 
@@ -43,17 +43,17 @@ IoT-Wifi-RC-Car/
 ├── README.md
 ├── .gitignore
 │
-├── Bluetooth Car/
+├── bluetooth-car/
 │   ├── Bluetooth_Car.ino
 │   ├── Bluetooth_Car_HARDWARE_CONNECTIONS.md
 │   └── bluetooth-rc-car-arduino-program.jpg
 │
-├── Wifi Car/
+├── wifi-car/
 │   ├── wificar_project.ino
 │   ├── wificar_project_HARDWARE_CONNECTIONS.md
-│   └── Wifi-controlled-car.jpg
+│   └── wifi-controlled-car.jpg
 │
-└── Wifi Car Sensor/
+└── wifi-car-sensor/
     ├── wificar_sensor_project.ino
     └── wificar_sensor_project_HARDWARE_CONNECTIONS.md
 ```
