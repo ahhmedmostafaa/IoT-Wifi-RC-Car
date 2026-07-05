@@ -29,7 +29,7 @@ bool manualLedControl = false; // Track if LED is controlled manually
 
 // WiFi credentials
 const char* ssid = "WIFI Car Project";
-const char* password = "ahmed123"; 
+const char* password = "YOUR_WIFI_PASSWORD_HERE"; // TODO: set your own password (min 8 chars for WPA2)
 
 ESP8266WebServer server(80);
 
