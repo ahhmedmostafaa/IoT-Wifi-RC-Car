@@ -6,7 +6,7 @@ An ESP8266/Arduino-based remote-controlled car with three evolving control imple
 The car uses an **L298N motor driver** to control two DC motors independently (differential drive), enabling forward, backward, left, right, and diagonal movement.
 
 - **WiFi versions (ESP8266):** the board creates its own WiFi access point and hosts a lightweight web server. Movement commands are sent as HTTP requests from any browser/phone connected to the car's network — no app installation needed. It's also compatible with dedicated WiFi RC car controller apps, such as <img src="app-icon.png" width="20" style="vertical-align:middle"/> **[ESP8266 WiFi Robot Car](https://play.google.com/store/apps/details?id=com.bluino.esp8266wifirobotcar) by Bluino**, which provides a ready-made directional control interface over the same web server.
-- **Bluetooth version:** an Arduino + Bluetooth module receives single-character serial commands (`F`, `B`, `L`, `R`, etc.) typically sent from a Bluetooth RC-car controller app, with adjustable speed levels and an electronic braking feature.
+- **Bluetooth version:** an Arduino + Bluetooth module receives single-character serial commands (`F`, `B`, `L`, `R`, etc.) typically sent from a Bluetooth RC-car controller app, such as <img src="bluetooth-app-icon.jpeg" width="20" style="vertical-align:middle"/> **[Arduino Bluetooth Controller](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor) by Giumig Apps**, with adjustable speed levels and an electronic braking feature.
 
 ## Project Versions
 | Folder | File | Description |
@@ -34,7 +34,7 @@ Each folder also contains a `HARDWARE_CONNECTIONS.md` with the full wiring/pinou
 3. Wire the components as described in that version's `HARDWARE_CONNECTIONS.md`
 4. Upload the sketch
 5. **WiFi versions:** connect to the car's WiFi network (`WIFI Car Project`) and either open its IP in a browser, or control it through the **ESP8266 WiFi Robot Car** app (Bluino) on your phone
-6. **Bluetooth version:** pair via a Bluetooth serial terminal or RC-car controller app
+6. **Bluetooth version:** pair via a Bluetooth serial terminal or the **Arduino Bluetooth Controller** app
 
 ## Repository Structure
 ```
@@ -42,6 +42,7 @@ IoT-Wifi-RC-Car/
 ├── README.md
 ├── .gitignore
 ├── app-icon.png
+├── bluetooth-app-icon.jpeg
 │
 ├── bluetooth-car/
 │   ├── Bluetooth_Car.ino
