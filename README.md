@@ -4,7 +4,7 @@ An ESP8266/Arduino-based remote-controlled car with three evolving control imple
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/f8f30786-e63d-4e0b-9e4d-e8f5605d9ebc
+<video src="https://github.com/user-attachments/assets/f8f30786-e63d-4e0b-9e4d-e8f5605d9ebc" width="300" controls></video>
 
 ## How it works
 The car uses an **L298N motor driver** to control two DC motors independently (differential drive), enabling forward, backward, left, right, and diagonal movement.
