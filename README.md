@@ -5,7 +5,7 @@ An ESP8266/Arduino-based remote-controlled car with three evolving control imple
 ## How it works
 The car uses an **L298N motor driver** to control two DC motors independently (differential drive), enabling forward, backward, left, right, and diagonal movement.
 
-- **WiFi versions (ESP8266):** the board creates its own WiFi access point and hosts a lightweight web server. Movement commands are sent as HTTP requests from any browser/phone connected to the car's network — no app installation needed. It's also compatible with dedicated WiFi RC car controller apps, such as <img src="app-icon.png" width="20" style="vertical-align:middle"/> **[ESP8266 WiFi Robot Car](https://play.google.com/store/apps) by Bluino**, which provides a ready-made directional control interface over the same web server.
+- **WiFi versions (ESP8266):** the board creates its own WiFi access point and hosts a lightweight web server. Movement commands are sent as HTTP requests from any browser/phone connected to the car's network — no app installation needed. It's also compatible with dedicated WiFi RC car controller apps, such as <img src="app-icon.png" width="20" style="vertical-align:middle"/> **[ESP8266 WiFi Robot Car](https://play.google.com/store/apps/details?id=com.bluino.esp8266wifirobotcar) by Bluino**, which provides a ready-made directional control interface over the same web server.
 - **Bluetooth version:** an Arduino + Bluetooth module receives single-character serial commands (`F`, `B`, `L`, `R`, etc.) typically sent from a Bluetooth RC-car controller app, with adjustable speed levels and an electronic braking feature.
 
 ## Project Versions
