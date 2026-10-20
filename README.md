@@ -2,7 +2,7 @@
 
 An ESP8266/Arduino-based remote-controlled car with three evolving control implementations: WiFi (via built-in web server), Bluetooth (serial commands), and a sensor-augmented WiFi version with ultrasonic obstacle detection.
 
-## Demo Video:
+## Demo Video
 
 **WiFi Car (base version)**
 
